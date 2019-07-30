@@ -8,16 +8,8 @@ import mimetypes
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.message import MIMEMessage
-import argparse
 
-#parser = argparse.ArgumentParser()
-
-#parser.add_argument('-s', action='store',
-#dest=str(location_url),
-#help='Enter location url')
-
-#parser.add_argument('s', action='store')
-#location_url = "https://forecast.weather.gov/MapClick.php?lat=32.7157&lon=-117.1617#.XS-Gyd-YXO8"
+location_url = "https://forecast.weather.gov/MapClick.php?lat=32.7157&lon=-117.1617#.XS-Gyd-YXO8"
 
 #This sets the variable page to the value of the specified url. In this case, the url contains the weather data to be retrieved
 page = requests.get(location_url)
