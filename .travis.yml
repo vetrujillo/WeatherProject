@@ -1,2 +1,2 @@
 language: python
-script: none
+script: pytest
